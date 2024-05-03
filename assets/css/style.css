@@ -25,7 +25,8 @@
     rgb(185, 205, 234)
   );
 
-  --gradient-2: #4043eef8;
+  --gradient-2: #e18738;
+  --color1: #df6d36;
 
   /**
    * typography
@@ -188,7 +189,7 @@ body {
 
 .btn:is(:hover, :focus) {
   background-position: right;
-  background-color: #0c10ea;
+  background-color:  #df6d36;
 }
 
 .w-100 {
@@ -263,7 +264,7 @@ body {
 
 .header {
   --color: var(--white);
-
+  --color2: var(--color1);
   position: absolute;
   top: 0;
   left: 0;
@@ -294,9 +295,13 @@ body {
 }
 
 .nav-open-btn {
-  color: var(--color);
+  color: var(--color2);
   font-size: 32px;
   padding: 4px;
+}
+
+.nav-open-btn:hover {
+  background-color: #df6d36;
 }
 
 .navbar {
@@ -395,7 +400,7 @@ body {
 }
 
 .hero-title {
-  color: var(--white);
+  color: #0a82ec;
   font-size: 36px;
   font-weight: bold;
   line-height: 40px;
