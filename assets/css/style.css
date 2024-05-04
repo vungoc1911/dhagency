@@ -1,5 +1,5 @@
 :root {
-  --st-patricks-blue: hsl(236, 57%, 28%);
+  --st-patricks-blue:  #0c10ea;
   --amaranth-purple: hsl(335, 88%, 38%);
   --royal-blue-dark: hsl(231, 68%, 21%);
   --chrome-yellow: hsl(39, 100%, 52%);
@@ -173,6 +173,7 @@ body {
 .h3 {
   font-family: var(--ff-source-sans-pro);
 }
+
 
 .btn {
   background-color: var(--gradient-2);
