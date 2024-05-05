@@ -520,13 +520,13 @@ body {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #3c63da;
+  background-color: #df6d36;
   color: white;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #3c63da;
+  background-color: #df6d36;
   color: white;
 }
 
@@ -701,7 +701,7 @@ body {
 \*-----------------------------------*/
 
 .accordion .accordion-item {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #0a82ec;
 }
 
 .accordion button {
