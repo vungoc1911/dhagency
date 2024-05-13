@@ -199,14 +199,32 @@ body {
 
 .banner-animation {
   animation: waveAnim 2s linear infinite alternate;
+  position: relative;
+  animation: slideIn 2s ease-out forwards;
+  opacity: 0;
 }
 
+
+@keyframes slideIn {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.process-animation {
+  animation: waveAnim 2s linear infinite alternate;
+}
 @keyframes waveAnim {
   0% {
     transform: translate(0, 0) rotate(0);
   }
   100% {
-    transform: translate(2px, 2px) rotate(1deg);
+    transform: translate(5px, 5px) rotate(2deg);
   }
 }
 
@@ -1010,6 +1028,7 @@ body {
   height: 100px;
   background: url("https://i.ibb.co/wQZVxxk/wave.png");
   background-size: 1000px 100px;
+
 }
 
 .wave#wave1 {
@@ -1049,6 +1068,14 @@ body {
   }
 }
 
+@keyframes animateWave {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+}
 @keyframes animate {
   0% {
     background-position-x: -1000px;
@@ -1480,3 +1507,59 @@ body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+.boat {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px; /* Điều chỉnh chiều rộng của con thuyền */
+  height: 50px; /* Điều chỉnh chiều cao của con thuyền */
+  background: url("https://i.ibb.co/6BfdtJW/boat.png") center/cover no-repeat; /* Sử dụng URL hình ảnh của con thuyền */
+  animation: animateBoat 10s linear infinite; /* Điều chỉnh thời gian hoạt ảnh */
+}
+
+@keyframes animateBoat {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+
+/* Thêm kiểu cho con thuyền */
+.boat {
+  position: absolute;
+  bottom: 180px; /* Điều chỉnh vị trí dưới đây nếu cần */
+  left: 0;
+  width: 100px; /* Điều chỉnh chiều rộng của con thuyền */
+  height: 100px; /* Điều chỉnh chiều cao của con thuyền */
+  background: url("../images/luffy.png") center/cover no-repeat; /* Sử dụng URL hình ảnh của con thuyền */
+  animation: animateBoat 10s linear infinite; /* Điều chỉnh thời gian hoạt ảnh */
+  z-index: 2000; /* Thiết lập thuyền hiển thị trên sóng */
+}
+
+@keyframes animateBoat {
+  0% {
+    left: -100px; /* Điều chỉnh vị trí bắt đầu của con thuyền */
+    transform: translateY(0); /* Khởi tạo biến đổi dịch chuyển y */
+  }
+  50% {
+    transform: translateY(100px); /* Dịch chuyển thuyền lên trên khi sóng lên */
+  }
+  100% {
+    left: calc(92%); /* Điều chỉnh vị trí kết thúc của con thuyền */
+    transform: translateY(0); /* Khôi phục vị trí ban đầu của thuyền */
+  }
+}
+
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+}

@@ -8,7 +8,9 @@ var arrLang = {
       "TITLE1A": "Rental Facebook",
       "TITLE1B": "AD Accounts",
       "TITLE1C": "Services",
-      "DESC1": "Whether you are looking to enhance your brand’s social media presence or drive targeted leads through social media advertising, our social media advertising services can help you hit your goals.",
+      "DESC1": "Hello all advertisers. I am an advertising service provider with many years of experience. I know there are a lot of advertisers having problems with their ad accounts, along with many recent adverse updates from Facebook, sometimes accounts are banned day after day. This problem prevents advertisers from scaling. So we are here to provide solutions and help you save time and be able to focus more on optimizing your advertising campaigns.\n" +
+          "  With our service, everything is already set up. You just need to come to us and carry out your advertising campaigns.\n" +
+          "  We will win together (U Win - I Win).",
       "START": "Start now",
       "TITLE2": "Facebook Account",
       "DESC2": "Facebook is gradually changing and it is more difficult and  affects each business's Advertising. We have many years of advertising experience and have many ways to overcome all difficulties when customers advertise.",
@@ -136,7 +138,10 @@ var arrLang = {
       "TITLE1A": "出租脸书",
       "TITLE1B": "广告账户",
       "TITLE1C": "服务",
-      "DESC1": "无论您是希望增强品牌的社交媒体影响力，还是通过社交媒体广告吸引有针对性的潜在客户，我们的社交媒体广告服务都可以帮助您实现目标。",
+      "DESC1": "\n" +
+          "大家好，我是一家广告服务提供商，拥有多年的经验。我知道许多广告商在他们的广告账户上遇到了很多问题，加上Facebook最近的一些不利更新，有时账户一天比一天更容易被封禁。这个问题阻碍了广告商的扩展。因此，我们在这里提供解决方案，帮助您节省时间，能够更多地专注于优化您的广告活动。\n" +
+          "通过我们的服务，一切都已经设置好了。您只需要来找我们，执行您的广告活动。\n" +
+          "我们会共同赢得胜利（你赢 - 我赢）。",
       "START": "现在开始",
       "TITLE2": "脸书账号",
       "DESC2": "Facebook正在逐渐发生变化，变得更加困难，并影响到每个企业的广告。 我们有多年的广告经验，有很多方法可以克服客户做广告时的一切困难。",
@@ -263,7 +268,9 @@ var arrLang = {
     "TITLE1A": "Услуги аренды",
     "TITLE1B": "Рекламных аккаунтов",
     "TITLE1C": "Facebook",
-    "DESC1": "Если вы хотите повысить узнаваемость своего бизнеса в социальных сетях или привлечь целевых клиентов с помощью рекламы, наши услуги по аренде аккаунтов facebook помогут вам.",
+    "DESC1": "Привет всем рекламодателям. Я поставщик рекламных услуг с многолетним опытом. Я знаю, что многие рекламодатели сталкиваются с проблемами в своих рекламных аккаунтах, а также с многочисленными негативными обновлениями от Facebook, иногда аккаунты блокируются день за днем. Эта проблема мешает рекламодателям масштабироваться. Поэтому мы здесь, чтобы предложить решения и помочь вам сэкономить время и сосредоточиться на оптимизации ваших рекламных кампаний.\n" +
+        "С нашим сервисом все уже настроено. Вам нужно только обратиться к нам и запустить свои рекламные кампании.\n" +
+        "Мы будем побеждать вместе (Вы выигрываете - Я выигрываю).",
     "START": "Начать",
     "TITLE2": "Facebook Аккаунт",
     "DESC2": "Facebook постоянно меняется, становится все сложнее и сложнее и это влияет на рекламу каждого бизнеса. У нас есть многолетний опыт работы с рекламой и множество способов решить все проблемы которые возникают во время рекламы.",
