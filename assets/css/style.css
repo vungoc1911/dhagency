@@ -1549,7 +1549,7 @@ body {
     transform: translateY(100px); /* Dịch chuyển thuyền lên trên khi sóng lên */
   }
   100% {
-    left: calc(92%); /* Điều chỉnh vị trí kết thúc của con thuyền */
+    left: calc(95%); /* Điều chỉnh vị trí kết thúc của con thuyền */
     transform: translateY(0); /* Khôi phục vị trí ban đầu của thuyền */
   }
 }
