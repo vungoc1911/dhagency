@@ -471,6 +471,7 @@ body {
   background: #f3f6ff;
   border-radius: 10px;
   height: fit-content;
+  width: fit-content;
 }
 
 .stat-img {
@@ -480,18 +481,45 @@ body {
 
 .stats-card {
   display: flex;
-  gap: 10px;
-  padding: 15px;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 10px;
+  transition: transform 0.2s;
+  width: 100%; /* Width of the stats card */
+  height: 100%; /* Height of the stats card */
 }
 
+.stats-card:hover {
+  transform: translateY(-5px);
+  background-color: #df6d36;
+}
+
+.stats-icon {
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.stats-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.stats-text-wrapper {
+  flex-grow: 1;
+}
 .stats-title {
-  color: var(--st-patricks-blue);
-  font-size: 18px;
-  font-weight: 600;
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
 }
 
 .stats-text {
-  font-size: 14px;
+  margin-top: 10px;
+  font-size: 0.8em;
+  color: #666;
 }
 
 .swiper {
