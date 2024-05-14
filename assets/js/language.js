@@ -90,7 +90,7 @@ var arrLang = {
       //QUESTION
       "QUESTION-TITLE": "Frequently Asked Questions",
       "Q-1": "Can your account run Black Hat and Gray Hat campaigns?",
-      "A-1": "Yes, our account can be used for Black Hat and Grey Hat campaigns.",
+      "A-1": "Our account accepts both black hat and gray hat campaigns.",
 
       "Q-2": "What types of accounts do you provide?",
       "A-2": "We provide all account types: Personal accounts with spending history, BM accounts and agency accounts.",
@@ -100,14 +100,14 @@ var arrLang = {
       "A-3A": "The balance in the old account will be transferred to the new account. This applies to both profile accounts and page accounts.",
 
       "Q-4": "What is your account limit??",
-      "A-4": "Our account has spending limits of $1500, 250 and no limit daily.",
+      "A-4": "Our account has spending limits of 50$,250$,1500$,5000$ and no limit daily.",
 
       "Q-5": "How do I use your account?",
       "A-5": "We set up everything and ad accounts in VPS, RDP or Adspower.",
       "A-5A": "You will be granted access to these software to control and use our account.",
 
       "Q-6": "Which payment method do you use?",
-      "A-6": "We use USDT ,BTC, Payoneer for payment.",
+      "A-6": "We use USDT ,BTC, Payoneer, Paypal, Bank tranfer for payment.",
 
       "Q-7": "How to top up your account?",
       "A-7": "You send us money after checking our account. Then our staff will activate the account for you to use.",
@@ -118,7 +118,7 @@ var arrLang = {
       "A-8A": "If there are no problems, the request will be forwarded to the accounting department for completion. This process will take 1-2 days.",
 
       "Q-9": "What is the service fee?",
-      "A-9": "We charge a service fee. This fee is 5-12% for White hat campaigns and 10-12% for Black hat campaigns.",
+      "A-9": "We charge a service fee. This fee is 5-10% for White hat campaigns and 6-11% for Black hat campaigns.",
       "A-9A": "This fee may change if you spend well and stably.",
 
       "Q-10": "What is the minimum spend to use your service?",
@@ -220,7 +220,7 @@ var arrLang = {
       //QUESTION
       "QUESTION-TITLE": "常见问题",
       "Q-1": "您的帐户可以运行黑帽和灰帽活动吗？",
-      "A-1": "是的，我们的帐户可用于黑帽和灰帽活动。",
+      "A-1": "我们的账户接受黑帽和灰帽活动。",
 
       "Q-2": "你们提供什么类型的账户？",
       "A-2": "我们提供所有账户类型：有消费历史的个人账户、BM账户和代理账户。",
@@ -230,14 +230,14 @@ var arrLang = {
       "A-3A": "旧帐户中的余额将转移到新帐户。这适用于个人资料帐户和页面帐户。",
 
       "Q-4": "您的账户限额是多少？？",
-      "A-4": "我们的账户支出限额为 1500 美元、250 美元，每日无限额。",
+      "A-4": "我们的账户每日支出限额为50美元、250美元、1500美元、5000美元和无限额。",
 
       "Q-5": "我如何使用你们的帐户？",
       "A-5": "我们在 VPS、RDP 或 Adspower 中设置了所有内容和广告帐户。",
       "A-5A": "您将被授予访问这些软件的权限来控制和使用我们的帐户。",
 
       "Q-6": "您使用哪种付款方式？",
-      "A-6": "我们使用USDT、BTC、Payoneer进行支付。",
+      "A-6": "我们使用USDT、BTC、Payoneer、Paypal和银行转账进行支付。",
 
       "Q-7": "如何给账户充值？",
       "A-7": "您查看我们的账户后给我们汇款，然后我们的工作人员会激活账户供您使用。",
@@ -248,7 +248,7 @@ var arrLang = {
       "A-8A": "如果没有问题，请求将转发给会计部门完成。这个过程需要1-2天。",
 
       "Q-9": "服务费是多少？",
-      "A-9": "我们收取服务费。此费用对于白帽活动为 8-12%，对于黑帽活动为 10-12%。",
+      "A-9": "我们收取服务费。此费用对于白帽活动为 5-10%，对于黑帽活动为 6-11%。",
       "A-9A": "如果您消费良好且稳定，此费用可能会发生变化。",
 
       "Q-10": "使用你们服务的最低消费是多少？",
@@ -350,7 +350,7 @@ var arrLang = {
     //QUESTION
     "QUESTION-TITLE": "Часто задаваемые вопросы",
     "Q-1": 'Можно ли на вашем аккаунте проводить кампании "черного" и "серого" цвета?',
-    "A-1": 'Да, наш аккаунт можно использовать для кампаний "черного" и "серого" цвета.',
+    "A-1": 'Наш аккаунт принимает черные и серые схемы.',
 
     "Q-2": "Какие типы аккаунтов вы предоставляете?",
     "A-2": "Мы предоставляем все типы аккаунтов: Личные аккаунты с историей расходов, BM и агентские аккаунты.",
@@ -360,14 +360,14 @@ var arrLang = {
     "A-3A": "Баланс на старой учетной записи будет перенесен на новую.",
 
     "Q-4": "Какой лимит ваших аккаунтов??",
-    "A-4": "У нас есть аккаунты с лимитом в 1500$, 250$ и без лимита в день.",
+    "A-4": "У нас есть аккаунты с лимитом в 50$,250$,1500$,5000$ и без лимита в день.",
 
     "Q-5": "Как пользоваться вашим аккаунтом?",
     "A-5": "Мы настраиваем все и рекламные аккаунты на VPS, RDP или Adspower.",
     "A-5A": "Вам будет предоставлен доступ к этим программам для управления и использования нашей учетной записи.",
 
     "Q-6": "Какой способ оплаты вы используете?",
-    "A-6": "Мы используем USDT, BTC, Payoneer для оплаты.",
+    "A-6": "Мы используем USDT, BTC, Payoneer, Paypal и банковский перевод для оплаты.",
 
     "Q-7": "Как пополнить счет?",
     "A-7": "Вы отправляете нам деньги после проверки вашего аккаунта. Затем наши сотрудники активируют аккаунт, чтобы вы могли им пользоваться.",
@@ -378,7 +378,7 @@ var arrLang = {
     "A-8A": "Если проблем не возникнет, запрос будет передан в бухгалтерию для завершения. Этот процесс займет 1-2 дня.",
 
     "Q-9": "Сколько стоит услуга?",
-    "A-9": 'Мы взимаем плату за обслуживание. Эта плата составляет 5-12% для "белых" кампаний и 10-12% для "черных".',
+    "A-9": 'Мы взимаем плату за обслуживание. Эта плата составляет 5-10% для "белых" кампаний и 6-11% для "черных".',
     "A-9A": "Эта плата может измениться, если вы будете тратить хорошо и стабильно.",
 
     "Q-10": "Каков минимальный расход средств для использования вашей услуги?",
