@@ -118,7 +118,7 @@ var arrLang = {
       "A-8A": "If there are no problems, the request will be forwarded to the accounting department for completion. This process will take 1-2 days.",
 
       "Q-9": "What is the service fee?",
-      "A-9": "We charge a service fee. This fee is 5-10% for White hat campaigns and 6-11% for Black hat campaigns.",
+      "A-9": "We charge a service fee. This fee is 5-8% for White hat campaigns and 5-10% for Black hat campaigns.",
       "A-9A": "This fee may change if you spend well and stably.",
 
       "Q-10": "What is the minimum spend to use your service?",
@@ -248,7 +248,7 @@ var arrLang = {
       "A-8A": "如果没有问题，请求将转发给会计部门完成。这个过程需要1-2天。",
 
       "Q-9": "服务费是多少？",
-      "A-9": "我们收取服务费。此费用对于白帽活动为 5-10%，对于黑帽活动为 6-11%。",
+      "A-9": "我们收取服务费。此费用对于白帽活动为 5-8%，对于黑帽活动为 5-10%。",
       "A-9A": "如果您消费良好且稳定，此费用可能会发生变化。",
 
       "Q-10": "使用你们服务的最低消费是多少？",
@@ -378,7 +378,7 @@ var arrLang = {
     "A-8A": "Если проблем не возникнет, запрос будет передан в бухгалтерию для завершения. Этот процесс займет 1-2 дня.",
 
     "Q-9": "Сколько стоит услуга?",
-    "A-9": 'Мы взимаем плату за обслуживание. Эта плата составляет 5-10% для "белых" кампаний и 6-11% для "черных".',
+    "A-9": 'Мы взимаем плату за обслуживание. Эта плата составляет 5-8% для "белых" кампаний и 5-10% для "черных".',
     "A-9A": "Эта плата может измениться, если вы будете тратить хорошо и стабильно.",
 
     "Q-10": "Каков минимальный расход средств для использования вашей услуги?",
